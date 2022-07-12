@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+
+
+    --Dark-blue: #1f2f56;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: #e0e8ff;
+    background-image: url("images\\pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card {
+    width: 449px;
+    height: 662px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 70px auto;
+    background-color: #f5f7ff;
+}
+
+.card_image {
+    width: 100%;
+}
+
+.card_encabezado {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1f2f56;
+    font-weight: 900;
+}
+
+.card_descripciones {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #7280a7;
+    margin-bottom: 20px;
+
+}
+
+.card_precio {
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_music-icon {
+    margin-left: 10px;
+    height: 55px;
+    width: 55px;
+    background: #ffffff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.card_precio_music1 {
+    color: #1f2f56;
+    font-weight: 900;
+    white-space: nowrap;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.card_precio_music2 {
+    color: #7280a7;
+    position: relative;
+    top: 30px;
+    left: -95px;
+}
+
+.card_precio a {
+    color: #3829e0;
+    text-decoration: underline;
+    position: relative;
+    top: 15px;
+    bottom: 15px;
+    left: -45px;
+}
+
+.card_boton_pago {
+    background-color: rgb(88, 88, 88);
+    align-content: center;
+    width: 369px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    color: #f5f7ff;
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card_boton_pago:hover {
+    cursor: pointer;
+    background-color: rgb(56, 41, 224);
+}
+
+.card_cancelar_pago {
+    background-color: rgb(88, 88, 88);
+    align-content: center;
+    width: 369px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    color: #f5f7ff;
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card_cancelar_pago:hover {
+    cursor: pointer;
+    background-color: rgb(56, 41, 224);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
